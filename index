@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,3 +131,137 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyCare Clinic</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">HealthyCare</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn">Book Appointment</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to HealthyCare Clinic</h1>
+            <p>Providing quality healthcare with compassion and expertise.</p>
+            <a href="#contact" class="btn hero-btn">Book Appointment</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.jpg" alt="Clinic Hero Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>HealthyCare Clinic is dedicated to providing top-notch medical services with a patient-first approach. Our mission is to ensure health and wellness for all our patients.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>General Consultation</h3>
+                <p>Expert advice and treatment for a wide range of medical conditions.</p>
+            </div>
+            <div class="card">
+                <h3>Pediatrics</h3>
+                <p>Comprehensive healthcare for infants, children, and adolescents.</p>
+            </div>
+            <div class="card">
+                <h3>Laboratory Services</h3>
+                <p>Accurate and timely diagnostics to aid effective treatment.</p>
+            </div>
+            <div class="card">
+                <h3>Surgery</h3>
+                <p>Modern surgical facilities with experienced medical professionals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <h2>Our Doctors</h2>
+        <div class="doctor-cards">
+            <div class="doctor-card">
+                <img src="images/doctor1.jpg" alt="Doctor 1">
+                <h3>Dr. Jane Smith</h3>
+                <p>General Practitioner</p>
+            </div>
+            <div class="doctor-card">
+                <img src="images/doctor2.jpg" alt="Doctor 2">
+                <h3>Dr. John Doe</h3>
+                <p>Pediatrician</p>
+            </div>
+            <div class="doctor-card">
+                <img src="images/doctor3.jpg" alt="Doctor 3">
+                <h3>Dr. Sarah Lee</h3>
+                <p>Surgeon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"HealthyCare Clinic has changed my life. The staff are amazing and very professional!"</p>
+                <h4>- Emily R.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Excellent care and very friendly doctors. Highly recommended!"</p>
+                <h4>- Michael T.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📍 123 Wellness Street, Lagos, Nigeria</p>
+            <p>📞 +234 800 123 4567</p>
+            <p>✉️ contact@healthycare.com</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 HealthyCare Clinic. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+>>>>>>> a2c6b8e975da68f5a182767e57b49ce771b2c891
